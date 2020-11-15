@@ -16,3 +16,11 @@ exports.jwt = {
     enable: true,
     package: 'egg-jwt'
 }
+exports.routerGroup = {
+    enable:true,
+    package: 'egg-router-group'
+}
+exports.cors = {
+    enable: true,
+    package: 'egg-cors',
+};
